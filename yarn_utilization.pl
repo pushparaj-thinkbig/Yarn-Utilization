@@ -20,11 +20,11 @@ my $filename;
 my $fh=Queue_report;
 
 #Curl the API data
-$url = `curl --negotiate -u: -H \"Content-Type: application\/json\" -GET http:\/\/guedlpa15ne04.devfg.rbc.com\:8088\/ws\/v1\/cluster\/scheduler 2> \/dev/null`;
+$url = `curl --negotiate -u: -H \"Content-Type: application\/json\" -GET http:\/\/<your host name here RM 1>\:8088\/ws\/v1\/cluster\/scheduler 2> \/dev/null`;
 if ($url =~ standby)
 {
 print "Trying the next one";
-$url = `curl --negotiate -u: -H \"Content-Type: application\/json\" -GET http:\/\/guedlpa15nf03.devfg.rbc.com\:8088\/ws\/v1\/cluster\/scheduler 2> \/dev/null`;
+$url = `curl --negotiate -u: -H \"Content-Type: application\/json\" -GET http:\/\/<Your host name here RM 2>\:8088\/ws\/v1\/cluster\/scheduler 2> \/dev/null`;
 }
 
 #Convert EPOCH to Local time
