@@ -34,7 +34,7 @@ The Script Currently Works for Hortonworks CAPACITY SCHEDULER ALONE --- It calls
 
 1. Automated HTML rigid graphs 		-- Minimal human efforts, No user flexibility (Better for small number of queues)
 
-1. Excel based pivot graphs created manually	-- Needs human intervention, Flexible as a dancer’s body!! (Best for organization with Huge number of queues --- RBC grew upto 96 queues !!!)
+1. Excel based pivot graphs created manually	-- Needs human intervention, Flexible as a dancer’s body!! (Best for organization with Huge number of queues --- My Current Organization project grew upto 96 queues !!!)
 
 
  
